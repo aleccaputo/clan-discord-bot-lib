@@ -1,0 +1,36 @@
+{
+  "name": "clan-discord-bot-lib",
+  "version": "1.0.0",
+  "description": "Shared utility functions for discord bots that manage a clan/guild",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleccaputo/clan-discord-bot-lib.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleccaputo/clan-discord-bot-lib/issues"
+  },
+  "homepage": "https://github.com/aleccaputo/clan-discord-bot-lib#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "discord.js": "~12"
+  },
+  "devDependencies": {
+    "discord.js": "^12.5.3",
+    "@types/node": "^15.6.1",
+    "@types/jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.3"
+  }
+}
